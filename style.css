@@ -1,0 +1,37 @@
+@import 'src/fonts/font.css';
+
+:root
+{
+	--color-main-blue: #004990;
+	--color-main-yellow: #F5B706;
+}
+
+
+#main-header {
+	padding: 12px;
+	border-bottom: 2px solid var(--color-main-yellow);
+}
+#main-header > div {
+	font-family: 'Montserrat Bold';
+	font-size: 22px;
+	letter-spacing: 1px;
+	color: var(--color-main-blue);
+	user-select: none;
+}
+
+#main-block {
+	display: flexbox;
+}
+#main-block button {
+	background-color: var(--color-main-blue);
+	color: white;
+	padding: 10px;
+	padding-left: 14px;
+	padding-right: 14px;
+	border: 2px solid var(--color-main-blue);
+	border-radius: 10px;
+	font-family: 'Montserrat';
+	font-size: 16px;
+	letter-spacing: 1px;
+
+}
